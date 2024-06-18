@@ -4,6 +4,6 @@
     but each message should be personalized with the person’s name. */
 
 
-    let friendNames:string[]=['shahnaz','hina','bano','humaira'];
+    let friendNames:string[]=['arham','ahsan','bilal','jamal'];
 
     friendNames.forEach(i => console.log(`${i}, you are cordialy invite in my birthday party ` ) );

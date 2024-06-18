@@ -12,39 +12,42 @@
 
     // Tests for equality and inequality with strings
 
-console.log("Equality Test (Strings):");
-console.log("apple" === "apple"); // True
-console.log("apple" !== "orange"); // False   
+let apple = "apple";
+let uppercaseApple = "APPLE";
+let ten =10;
+let twenty =20;
+let fruits = ["apple", "banana", "arange"];
 
-// Tests using the lower case function
-console.log("\nLowercase Function Test:");
-console.log("HELLO".toLowerCase() === "hello"); // True
-console.log("WORLD".toLowerCase() === "WORLD"); // False
+console.log("is apple is equal to apple?");
+console.log(apple == "apple");
 
-// Numerical tests
-console.log("\nNumerical Tests:");
-console.log(5 === 5); // True
-console.log(10 !== 5); // True
-console.log(10 > 5); // True
-console.log(5 < 10); // True
-console.log(5 >= 5); // True
-console.log(5 <= 5); // True
+console.log("\nis apple is not equal to apple?");
+console.log(apple != "apple");
 
-// Tests using "and" and "or" operators
-console.log("\nLogical Operator Tests:");
-console.log((10 > 5) && (5 < 10)); // True
-console.log((10 > 5) || (5 > 10)); // True
+console.log("\nis APPLE is equal to apple after converting to lowercase?");
+console.log(uppercaseApple.toLowerCase() == "apple");
 
-// Test whether an item is in an array
-console.log("\nArray Inclusion Test:");
-const array = [1, 2, 3, 4, 5];
-console.log(array.includes(3)); // True
-console.log(array.includes(6)); // False
+console.log("\nis APPLE is not equal to apple after converting to lowercase?");
+console.log(uppercaseApple.toLowerCase() != "apple");
 
-// Test whether an item is not in an array
-console.log("\nArray Exclusion Test:");
-console.log(!array.includes(6)); // True
-console.log(!array.includes(3)); // False
+console.log("\nis ten is equal to twenty?");
+console.log(ten == twenty);
+
+console.log("\nis ten is not equal to twenty?");
+console.log(ten != twenty);
+
+console.log("\nis ten is greater than zero?");
+console.log(ten > 0);
+
+console.log("\nis twenty is less than 10?");
+console.log(twenty < 10);
+
+console.log("\nis ten is greater than or equal to 5?");
+console.log(ten >= 5);
+
+console.log("\nis twenty is less than or equal to 10?");
+console.log(twenty <= 10);
+
 
 
 

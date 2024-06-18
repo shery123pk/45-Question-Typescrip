@@ -10,14 +10,15 @@ in time for the dinner, and you have space for only two guests.
 
 • Remove the last two names from your list, so you have an empty list. Print your list to make sure you
     actually have an empty list at the end of your program.*/
-let guestList = ['Shahnaz', 'Hamna', 'Nida', 'Rubina', 'Asif'];
-guestList.splice(0, 1, "Safia");
-guestList.push('Rabia');
-let middleName = (Math.floor(guestList.length / 2));
-guestList.splice(middleName, 0, "Asif");
-guestList.forEach(i => console.log(`Assalamo Aliekum ${i}, you are invited in my Birthday Party celebrated on Sunday.`));
-guestList.forEach(i => console.log(`Dear ${i}, unfortunately new dinner table won’t arrive in time for the dinner, so we have space for only two guests.We can invite only two people for dinner`));
-guestList.pop();
-guestList.pop();
-console.log(guestList);
+let guests = ['ahsan', 'haseeb', 'adnan', 'kamal', 'Asif'];
+console.log("Unfortunately, I can only invite two people for dinner.");
+while (guests.length > 2) {
+    let removedGuest = guests.pop();
+    console.log(`Sorry, ${removedGuest}, I can't invite you to dinner.`);
+}
+guests.forEach(guest => {
+    console.log(`Dear ${guest}, you're still invited to dinner.`);
+});
+guests.splice(0, guests.length);
+console.log(guests); // Shows an empty list
 export {};

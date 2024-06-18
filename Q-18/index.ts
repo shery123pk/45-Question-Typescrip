@@ -44,17 +44,3 @@
     //its orignal order has changed
    console.log('its orignal order has changed= ',countries);
 
-   
-    //sort array.
-    console.log(`Alphabetical order =`,countries.sort());
-    
-    //orignal order 
-    console.log('array is still in its original order',countries);
-
-    //reverse in alphabetical order
-
-    console.log(`Alphabetical order =`,countries.sort());
-
-
-
-    

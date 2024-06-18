@@ -8,11 +8,11 @@
         new person you are inviting.
     • Print a second set of invitation messages, one for each person who is still in your list.   */
 
-    let inviteeName:string[]=['shahnaz','saba','arfa','hania'];
+    let inviteeName:string[]=['ahsan','saqib','masood','jamal'];
 
     let personNotcome=inviteeName[0];
 
-        inviteeName.splice(0,1,'nosheen');
+        inviteeName.splice(0,1,'bilal');
         console.log(`Hello friends how are you,${personNotcome} cant attend the party due to some reason, So`);
 
 inviteeName.forEach(i=>console.log(`${i} you are invited in my birthday party on sunday`));

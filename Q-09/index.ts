@@ -4,7 +4,7 @@
 
     //1st method
     
-    let favouriteNumber=6;
+    let favouriteNumber=3;
     let message="my favourite number is:";
 
     console.log(`my favourite number is, ${favouriteNumber}`);

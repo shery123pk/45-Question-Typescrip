@@ -6,7 +6,7 @@
     • Write one version of this program that passes the if test and another that fails. 
         (The version that fails will have no output.) */
 
-        let alien_color='Green';
+        let alien_color ='Green';
 
         if(alien_color==='Green')
             {

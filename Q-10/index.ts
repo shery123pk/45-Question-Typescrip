@@ -6,7 +6,7 @@
 
     //current date is: 4/24/2024
     
-    let myName:string="Sharmeen Asif";      //this variable store my name
+    let myName:string="Asif";      //this variable store my name
 
     console.log(myName);                    //this program print my name using myName variable
 

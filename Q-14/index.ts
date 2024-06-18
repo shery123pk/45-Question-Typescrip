@@ -3,6 +3,6 @@
     like to invite to dinner. Then use your list to print a message to each person, 
     inviting them to dinner. */
 
-    let inviteeName:string[]=['shahnaz','saba','arfa','hania'];
+    let inviteeName:string[]=['arif','imran','nawaz','asif'];
 
     inviteeName.forEach(i=>console.log(`Hi, ${i} you are invited in my tikky party,held on sunday`))

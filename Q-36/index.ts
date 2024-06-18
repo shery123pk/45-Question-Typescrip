@@ -5,6 +5,6 @@ function make_shirt(size:string, msg:string){
     console.log(`the ${size} size and text ${msg} print on this shirt:\n`);
 }
 
-make_shirt('small','"codeshery"');
-make_shirt('Medium','"codeshery"');
-make_shirt('Large','"codeshery"');
+make_shirt('small','"Lahore Qalandar"');
+make_shirt('Medium','"Peshawar Zalmi"');
+make_shirt('Large','"Karachi King"');

@@ -1,7 +1,7 @@
 /*  Name Cases: Store a person’s name in a variable, 
 and then print that person’s name in lowercase, uppercase, and titlecase.*/
 
-    let personName="sharmeen Asif";     
+    let personName="Asif Ali";     
 
 //convert string into lowercase
 

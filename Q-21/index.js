@@ -3,7 +3,7 @@
 let fruite = {
     name: "apple",
     color: "Red",
-    quantity: "tsri"
+    quantity: "5"
 };
 console.log(fruite);
 export {};
